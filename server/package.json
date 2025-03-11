@@ -1,0 +1,25 @@
+{
+    "name": "anime-api",
+    "version": "1.0.0",
+    "description": "Simple Anime API with Express",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "keywords": [
+        "express",
+        "api",
+        "anime"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.2",
+        "fs": "^0.0.1-security"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
