@@ -3,6 +3,7 @@
 ## Anggota Kelompok
 - **Muhammad Bintang Indra Hidayat** - NPM: 2208107010023
 - **Ahmad Syah Ramadhan** - NPM: 2208107010033
+- **Indriani Miza Alfiyanti** - NPM: 2208107010026 
 
 ## Deskripsi Proyek
 Proyek ini merupakan API sederhana yang dibuat menggunakan Express.js untuk mengelola data anime. API ini memungkinkan pengguna untuk melihat daftar anime, mendapatkan detail anime tertentu, serta menambahkan anime baru ke dalam database JSON. Selain backend, proyek ini juga memiliki frontend sederhana untuk menampilkan dan mengelola data anime.
