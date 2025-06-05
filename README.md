@@ -1,10 +1,13 @@
 # Sistem API Sederhana
 
+## Anggota Kelompok
+- **Muhammad Bintang Indra Hidayat** - NPM: 2208107010023
+- **Ahmad Syah Ramadhan** - NPM: 2208107010033
+
 ## Deskripsi Proyek
 Proyek ini merupakan API sederhana yang dibuat menggunakan Express.js untuk mengelola data anime. API ini memungkinkan pengguna untuk melihat daftar anime, mendapatkan detail anime tertentu, serta menambahkan anime baru ke dalam database JSON. Selain backend, proyek ini juga memiliki frontend sederhana untuk menampilkan dan mengelola data anime.
 
 ## Struktur Proyek
-
 ### Backend (server)
 ```
 server/
@@ -25,7 +28,6 @@ client/
 ```
 
 ## Fitur API
-
 ### 1. Mendapatkan Semua Anime (GET /anime)
 Mengembalikan daftar semua anime yang tersedia di database.
 
@@ -113,3 +115,25 @@ Selain fitur wajib, API ini juga memiliki fitur tambahan seperti:
 - Database: JSON file (`anime.json`)
 - Frontend: HTML, CSS, JavaScript
 
+## Testing API
+Anda dapat menguji API menggunakan tools seperti:
+- Postman
+- Thunder Client (VS Code Extension)
+- cURL command line
+
+### Contoh Testing dengan cURL:
+```bash
+# Mendapatkan semua anime
+curl -X GET http://localhost:3000/anime
+
+# Mendapatkan anime berdasarkan ID
+curl -X GET http://localhost:3000/anime/1
+
+# Menambahkan anime baru
+curl -X POST http://localhost:3000/anime \
+  -H "Content-Type: application/json" \
+  -d '{"title":"Demon Slayer","genre":"Supernatural","rating":8.7}'
+```
+
+## Kontribusi
+Proyek ini dikembangkan sebagai bagian dari tugas mata kuliah. Setiap anggota tim berkontribusi dalam pengembangan fitur-fitur API dan frontend yang telah disebutkan di atas.
